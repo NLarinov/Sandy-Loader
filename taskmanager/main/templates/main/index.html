@@ -1,0 +1,24 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>EasyDownload v0.1</title>
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}" type="text/css">
+
+  </head>
+    <body class="">
+    <form action="" method="POST">
+        <h1 class="">Please put your link here</h1>
+        {% csrf_token %}
+        <p>
+    <input type="text" name="your_link" value="" maxlength="1000" required="" autocomplete="" id="id_your_link">
+        <input type="Submit" name="submit" value="Start"/></p>
+        </form>
+        <br>
+        <p class="">This service will help you</p>
+</body>
+</html>

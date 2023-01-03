@@ -135,3 +135,5 @@ Read port: 65302
 1660301048861	RemoteAgent	WAconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LYUBA\\AppData\\Local\\Temp\\rust_mozprofileSaPedz\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:61660301053377	Marionette	INFO	Stopped listening on port 65291660301054400	Marionette	INFO	Stopped listening on port 65302
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672760650824	geckodriver	INFO	Listening on 127.0.0.1:61202
+1672760653868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61203" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofileNVMK1m"

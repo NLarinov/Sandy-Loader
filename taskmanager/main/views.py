@@ -4,21 +4,17 @@ from .main import TestClass
 import os
 
 
-start = True
-
-
 def index(request):
-    global start
     your_link = ''
-
+    req = str(request)
     form = NameForm(request.POST or None)
     if form.is_valid():
         your_link = form.cleaned_data.get("your_link")
-
     context = {'form': form, 'firstname': your_link}
-    print(your_link)
-    #
-    # if start is False:
+
+    if 'par' in req:
+        link = req[req.index('par')+4:-3]
+        print(link, 'SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU')
     #     a = TestClass()
     #
     #     def start(login):
@@ -29,5 +25,4 @@ def index(request):
     #
     #     start('https://pdf.11klasov.net/1825-starlight-5-zvezdnyy-angliyskiy-5-klass-baranova-km-duli-d-kopylova-vv-i-dr.html')
 
-    start = False
     return render(request, 'main/index.html', context)

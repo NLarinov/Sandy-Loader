@@ -14,15 +14,7 @@ def index(request):
 
     if 'par' in req:
         link = req[req.index('par')+4:-3]
-        print(link, 'SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU')
-    #     a = TestClass()
-    #
-    #     def start(login):
-    #         a.easy_download(login)
-    #         if len(os.listdir('C:\Downloads')) == 0:
-    #             a.full_download(login)
-    #         print('ok')
-    #
-    #     start('https://pdf.11klasov.net/1825-starlight-5-zvezdnyy-angliyskiy-5-klass-baranova-km-duli-d-kopylova-vv-i-dr.html')
+        a = TestClass()
+        a.easy_download(link)
 
     return render(request, 'main/index.html', context)

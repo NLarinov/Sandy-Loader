@@ -17,7 +17,7 @@ def index(request):
     context = {'form': form, 'firstname': your_link}
 
     if 'par' in req:
-        link = req[req.index('par')+4:-3]
+        link = req[req.index('par')+4:-2]
         a.easy_download(link)
 
     return render(request, 'main/index.html', context)

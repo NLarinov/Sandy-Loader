@@ -1,10 +1,14 @@
 from django.shortcuts import render
 from .forms import NameForm
-from .main import TestClass
+from .selen import TestClass
 import os
 
 
+a = TestClass()
+
+
 def index(request):
+    global a
     your_link = ''
     req = str(request)
     form = NameForm(request.POST or None)
@@ -14,7 +18,6 @@ def index(request):
 
     if 'par' in req:
         link = req[req.index('par')+4:-3]
-        a = TestClass()
         a.easy_download(link)
 
     return render(request, 'main/index.html', context)

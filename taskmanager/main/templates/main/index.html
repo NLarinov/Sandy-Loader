@@ -10,11 +10,10 @@
     <body class="">
     <h1>Here are your links</h1>
     {% for line, link in list %}
-
+    <div>
     <a href="{{link}}">{{line}}</a>
-    <div></div>
-
-   {% endfor %}
+    </div>
+    {% endfor %}
     <form action="" method="POST">
         {% csrf_token %}
         <p>

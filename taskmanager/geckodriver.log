@@ -9876,4 +9876,5 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1674741164360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mJavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1058: NS_ERROR_FAILURE: Ignore PDF.js for this download.
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mJavaScript error: resource://pdf.js/PdfStreamConverter.jsm, line 1058: NS_ERROR_FAILURE: Ignore JavaScript error: , line 0:JavaScript error: , line 1674746598342	Marionette	IN1674746599714	Marionette	INFO	Stopped listening on port 56325
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

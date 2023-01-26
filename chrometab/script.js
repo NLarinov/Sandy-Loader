@@ -1,7 +1,7 @@
 chrome.contextMenus.removeAll();
 chrome.contextMenus.create({
     id: "some-command",
-    title: "RIGHTloadMaster",
+    title: "RIGHTloadMaster - получить все файлы с сайта",
     }
 );
 chrome.contextMenus.onClicked.addListener(function() {

@@ -1,0 +1,4 @@
+Name: 10MB, link: https://speedtest.selectel.ru/10MB, status: undefined
+Name: 100MB, link: https://speedtest.selectel.ru/100MB, status: undefined
+Name: 1GB, link: https://speedtest.selectel.ru/1GB, status: undefined
+Name: 10GB, link: https://speedtest.selectel.ru/10GB, status: undefined

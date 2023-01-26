@@ -22,6 +22,7 @@ class TestClass:
                       'загрузить', 'файл']
         self.blocked = ['https://avidreaders.ru', ]
         self.used = []
+        self.req = ''
 
     def antivirus(self, link, file):
         aa = self.antidriver.find_element(By.XPATH, '//*[@id="url_to_scan"]')
@@ -36,17 +37,18 @@ class TestClass:
             except Exception:
                 pass
         time.sleep(4)
-        try:
-            c = self.antidriver.find_element(By.XPATH, '//*[@id="urolog"]/div/div[2'
-                                                       ']/div/div/table/tbody/tr/td[1]/span').text
-            print(c)
-            if c == 'Вирусов нет':
-                print(file, link, 'clear')
-            else:
-                print(file, link, 'dangerous')
-            self.antidriver.find_element(By.XPATH, '//*[@id="urolog"]/div/div[3]/table[2]/tbody/tr[1]/td[1]/a').click()
-        except Exception:
-            print(file, link, 'undefined')
+        with open('result.txt', 'a') as line:
+            try:
+                c = self.antidriver.find_element(By.XPATH, '//*[@id="urolog"]/div/div[2'
+                                                           ']/div/div/table/tbody/tr/td[1]/span').text
+                if c == 'Вирусов нет':
+                    line.write(f'Name: {file[13:]}, link: {link}, status: clear\n')
+                else:
+                    line.write(f'Name: {file[13:]}, link: {link}, status: dangerous\n')
+                self.antidriver.find_element(By.XPATH, '//*[@id="urolog"]/div/div[3]'
+                                                       '/table[2]/tbody/tr[1]/td[1]/a').click()
+            except Exception:
+                line.write(f'Name: {file[13:]}, link: {link}, status: undefined\n')
 
     def get_attributes(self, element) -> dict:
         return self.driver.execute_script(
@@ -61,10 +63,10 @@ class TestClass:
             element
         )
 
-    def easy_download(self, login):
+    def easy_download(self, login, req):
         print("Looking for a files...", end='\n\n')
         self.used = []
-
+        self.req = req
         while True:
             self.driver.get(login)
             time.sleep(1)
@@ -110,8 +112,11 @@ class TestClass:
                             print(len(results2))
                             if self.script(new, results2, recursion=True) is True:
                                 print('SUCCESS')
+                                with open('result.txt', 'w') as line:
+                                    line.write('\n')
                                 break
                         return False
+
                 if len(os.listdir('C:\Downloads')) != 0:
                     print('File successfully downloaded!', end='\n\n')
                     files = glob.glob('C:\Downloads\*')

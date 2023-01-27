@@ -1,5 +1,5 @@
 {
-    "name": "Custom context menu in browser action",
+    "name": "Sandy Loader",
     "version": "1",
     "manifest_version": 3,
     "background": {
@@ -13,6 +13,6 @@
       "contextMenus", "scripting", "tabs", "http://127.0.0.1:8000/"
     ],
     "icons": {
-      "128": "14x.jpg"
+      "128": "new.jpg"
     }
 }

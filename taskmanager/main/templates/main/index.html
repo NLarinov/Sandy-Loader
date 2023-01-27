@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}" type="text/css">
 
   </head>
-    <body class="">
+    <body>
     <h1>Here are your links</h1>
     {% for line, link in list %}
-    <div>
-    <a href="{{link}}">{{line}}</a>
+    <div class="button">
+        <a class="button" href="{{link}}">{{line}}</a>
     </div>
     {% endfor %}
     <form action="" method="POST">
@@ -21,6 +21,6 @@
         </p>
     </form>
         <br>
-        <p class="">This service will help you</p>
+        <p>This service will help you</p>
 </body>
 </html>

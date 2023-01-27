@@ -19,7 +19,7 @@ class TestClass:
         self.antidriver.get('https://vms.drweb.ru/online/')
         self.driver = webdriver.Firefox(options=profile)
         self.count = ['download', 'load', 'скачать',
-                      'загрузить', 'файл']
+                      'загрузить', 'файл', 'pdf', 'txt', 'mp3', 'mp4']
         self.blocked = ['https://avidreaders.ru', ]
         self.used = []
         self.req = ''
@@ -72,6 +72,8 @@ class TestClass:
             time.sleep(1)
             results = self.driver.find_elements(By.XPATH, '//a')
             [results.append(i) for i in self.driver.find_elements(By.XPATH, '//p')]
+            [results.append(i) for i in self.driver.find_elements(By.XPATH, '//span')]
+            [results.append(i) for i in self.driver.find_elements(By.XPATH, '//button')]
             print(len(results))
             if self.script(login, results) is True:
                 print('SUCCESS')

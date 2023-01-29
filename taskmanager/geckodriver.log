@@ -11001,3 +11001,95 @@ JavaScript warning: https://culturaltracking.ru/static/js/spxl.js, line 1: WEBGL
 JavaScript warning: https://culturaltracking.ru/static/js/spxl.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1674983090449	geckodriver	INFO	Listening on 127.0.0.1:61067
+1674983093487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61068" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofileBXVtQa"
+1674983093870	Marionette	INFO	Marionette enabled
+1674983093874	Marionette	INFO	Listening on port 61087
+Read port: 61087
+WebDriver BiDi listening on ws://127.0.0.1:61068
+1674983093981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofileBXVtQa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61068/devtools/browser/42cea838-9707-4ad9-bf4d-3ab0adf01d2a
+JavaScript warning: https://st.drweb.com/static/new-www/additions.js, line 178: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+ynchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+1674983443545	geckodriver	INFO	Listening on 127.0.0.1:61713
+1674983446599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61714" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofilefdEdng"
+1674983446841	Marionette	INFO	Marionette enabled
+1674983446844	Marionette	INFO	Listening on port 61723
+WebDriver BiDi listening on ws://127.0.0.1:61714
+Read port: 61723
+1674983447043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofilefdEdng\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61714/devtools/browser/19438488-9f31-46bb-9d3e-da2e4fa65ccf
+JavaScript warning: https://st.drweb.com/static/new-www/additions.js, line 178: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://vms.drweb.ru."
+d for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofileCFzmVL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61753/devtools/browser/0d89b9a2-661d-4cea-8050-a3c43311c777
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://royallib.com."
+1674983821663	geckodriver	INFO	Listening on 127.0.0.1:62094
+1674983824715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofilepdKwYa"
+1674983824962	Marionette	INFO	Marionette enabled
+1674983824965	Marionette	INFO	Listening on port 62105
+WebDriver BiDi listening on ws://127.0.0.1:62095
+Read port: 62105
+1674983825161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofilepdKwYa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62095/devtools/browser/aadfb52c-1d7b-4fc7-9338-235e9f7bc705
+JavaScript warning: https://st.drweb.com/static/new-www/additions.js, line 178: unreachable code after return statement
+1674983828759	geckodriver	INFO	Listening on 127.0.0.1:62143
+1674983831802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\n_lar\\AppData\\Local\\Temp\\rust_mozprofileQamxsW"
+1674983832047	Marionette	INFO	Marionette enabled
+1674983832050	Marionette	INFO	Listening on port 62158
+WebDriver BiDi listening on ws://127.0.0.1:62144
+Read port: 62158
+1674983832255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

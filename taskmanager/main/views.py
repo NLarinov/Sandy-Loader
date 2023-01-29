@@ -2,8 +2,8 @@ from django.shortcuts import render
 from .forms import NameForm
 from .selen import TestClass
 
-# a = TestClass()
-#
+a = TestClass()
+
 
 def index(request):
     global a

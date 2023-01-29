@@ -122,9 +122,9 @@ class TestClass:
                 if len(os.listdir('C:\Downloads')) != 0:
                     print('File successfully downloaded!', end='\n\n')
                     files = glob.glob('C:\Downloads\*')
+                    new = files[0]
                     if main is None:
                         main = self.driver.current_url
-                    self.antivirus(main, files[0])
 
                     if len(files) == 2:
                         keyboard.send('tab')
@@ -136,6 +136,8 @@ class TestClass:
                     else:
                         for f in files:
                             os.remove(f)
+
+                    self.antivirus(main, new)
                 else:
                     print('File was not detected', end='\n\n')
         return True

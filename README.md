@@ -1,10 +1,10 @@
-Welcome!
+#Welcome!
 
 This is my school project called Sandy Loader (from association with sandbox, where you can do whatever you want).
 
 It is a web-app (Chrome extension) that downloads all files from website by imitating user actions (clicks on buttons and other interactive elements).
 
-Here is a description from my project work:
+##Here is a description from my project work:
 
 An innovative way to download files, which saves users from a long search for links and buttons on the site page.
 
